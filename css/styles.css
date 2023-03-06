@@ -550,9 +550,7 @@ ul {
 	height: 100%;
 	max-width: 408px;
 	max-height: 576px;
-	padding: 0 24px;
-	padding-top: 72px;
-	padding-bottom: 24px;
+	padding: 72px 25px 24px 23px;
 
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
@@ -609,6 +607,8 @@ ul {
 	font-weight: 500;
 	color: var(--primery-dark);
 	margin-bottom: 16px;
+	display: flex;
+	justify-content: center;
 }
 .modal-form-field {
 	margin-bottom: 8px;
@@ -701,7 +701,7 @@ ul {
 	background-color: var(--active-state);
 }
 
-.modal-form-field-chek {
+.modal-form-field-cheсk {
 	margin-top: 16px;
 	margin-bottom: 24px;
 	display: flex;
@@ -714,17 +714,16 @@ ul {
 	cursor: pointer;
 }
 
-.modal-form-field-chek-input {
+.modal-form-field-cheсk-input {
 	appearance: none;
 }
 
-.modal-form-field-chek-input:checked + .modal-form-field-chek-checkbox {
+.modal-form-field-cheсk-input:checked + .modal-form-field-cheсk-checkbox {
 	background: var(--active-state);
 	border: 1.25px solid var(--active-state);
-	border-radius: 2px;
 }
 
-.modal-form-field-chek-checkbox {
+.modal-form-field-cheсk-checkbox {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -737,11 +736,11 @@ ul {
 	fill: #ffffff;
 }
 
-.modal-form-field-chek-icon {
+.modal-form-field-cheсk-icon {
 	width: 10px;
 	height: 8px;
 }
-.modal-form-field-chek-link {
+.modal-form-field-cheсk-link {
 	color: var(--brand-color);
 	margin-left: 4px;
 }
